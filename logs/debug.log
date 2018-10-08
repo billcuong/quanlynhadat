@@ -1,0 +1,396 @@
+2018-10-05 09:24:18 Notice: Notice (8): Undefined variable: menumain in [C:\xampp\htdocs\emailLocal\src\Template\Element\menuleft.ctp, line 5]
+Request URL: /menu
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+include - APP/Template\Element\menuleft.ctp, line 5
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1598
+Cake\View\View::element() - CORE\src\View\View.php, line 706
+include - APP/Template\Layout\layout.ctp, line 82
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 850
+Cake\View\View::render() - CORE\src\View\View.php, line 808
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 790
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 24
+
+
+
+2018-10-05 09:24:57 Notice: Notice (8): Undefined variable: menumain in [C:\xampp\htdocs\emailLocal\src\Template\Element\menuleft.ctp, line 4]
+Request URL: /menu
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+include - APP/Template\Element\menuleft.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1598
+Cake\View\View::element() - CORE\src\View\View.php, line 706
+include - APP/Template\Layout\layout.ctp, line 82
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 850
+Cake\View\View::render() - CORE\src\View\View.php, line 808
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 790
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 24
+
+
+
+2018-10-05 09:25:46 Notice: Notice (8): Undefined variable: menumain in [C:\xampp\htdocs\emailLocal\src\Template\Element\menuleft.ctp, line 4]
+Request URL: /menu
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+include - APP/Template\Element\menuleft.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1598
+Cake\View\View::element() - CORE\src\View\View.php, line 706
+include - APP/Template\Layout\layout.ctp, line 82
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 850
+Cake\View\View::render() - CORE\src\View\View.php, line 808
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 790
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 24
+
+
+
+2018-10-05 09:28:00 Notice: Notice (8): Undefined variable: menumain in [C:\xampp\htdocs\emailLocal\src\Template\Element\menuleft.ctp, line 4]
+Request URL: /menu
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+include - APP/Template\Element\menuleft.ctp, line 4
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1598
+Cake\View\View::element() - CORE\src\View\View.php, line 706
+include - APP/Template\Layout\layout.ctp, line 82
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 850
+Cake\View\View::render() - CORE\src\View\View.php, line 808
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 790
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 24
+
+
+
+2018-10-05 09:39:20 Notice: Notice (8): Undefined variable: menus in [C:\xampp\htdocs\emailLocal\src\Template\Element\menuleft.ctp, line 6]
+Request URL: /menu
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+include - APP/Template\Element\menuleft.ctp, line 6
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1598
+Cake\View\View::element() - CORE\src\View\View.php, line 706
+include - APP/Template\Layout\layout.ctp, line 82
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 850
+Cake\View\View::render() - CORE\src\View\View.php, line 808
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 790
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 24
+
+
+
+2018-10-05 09:40:09 Notice: Notice (8): Undefined variable: menus in [C:\xampp\htdocs\emailLocal\src\Template\Element\menuleft.ctp, line 6]
+Request URL: /menu
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+include - APP/Template\Element\menuleft.ctp, line 6
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1598
+Cake\View\View::element() - CORE\src\View\View.php, line 706
+include - APP/Template\Layout\layout.ctp, line 82
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 850
+Cake\View\View::render() - CORE\src\View\View.php, line 808
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 790
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 24
+
+
+
+2018-10-05 09:40:34 Notice: Notice (8): Undefined variable: menus in [C:\xampp\htdocs\emailLocal\src\Template\Element\menuleft.ctp, line 6]
+Request URL: /menu
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+include - APP/Template\Element\menuleft.ctp, line 6
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1598
+Cake\View\View::element() - CORE\src\View\View.php, line 706
+include - APP/Template\Layout\layout.ctp, line 82
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 850
+Cake\View\View::render() - CORE\src\View\View.php, line 808
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 790
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 24
+
+
+
+2018-10-05 09:47:01 Notice: Notice (8): Undefined variable: menus in [C:\xampp\htdocs\emailLocal\src\Template\Element\menuleft.ctp, line 6]
+Request URL: /menu
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+include - APP/Template\Element\menuleft.ctp, line 6
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1598
+Cake\View\View::element() - CORE\src\View\View.php, line 706
+include - APP/Template\Layout\layout.ctp, line 82
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 850
+Cake\View\View::render() - CORE\src\View\View.php, line 808
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 790
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 24
+
+
+
+2018-10-05 09:47:02 Notice: Notice (8): Undefined variable: menus in [C:\xampp\htdocs\emailLocal\src\Template\Element\menuleft.ctp, line 3]
+Request URL: /menu
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+include - APP/Template\Element\menuleft.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1598
+Cake\View\View::element() - CORE\src\View\View.php, line 706
+include - APP/Template\Layout\layout.ctp, line 82
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 850
+Cake\View\View::render() - CORE\src\View\View.php, line 808
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 790
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 24
+
+
+
+2018-10-05 09:48:40 Notice: Notice (8): Undefined variable: menus in [C:\xampp\htdocs\emailLocal\src\Template\Element\menuleft.ctp, line 3]
+Request URL: /menu
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+include - APP/Template\Element\menuleft.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1598
+Cake\View\View::element() - CORE\src\View\View.php, line 706
+include - APP/Template\Layout\layout.ctp, line 82
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 850
+Cake\View\View::render() - CORE\src\View\View.php, line 808
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 790
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 24
+
+
+
+2018-10-05 09:48:52 Notice: Notice (8): Undefined variable: menus in [C:\xampp\htdocs\emailLocal\src\Template\Element\menuleft.ctp, line 3]
+Request URL: /menu
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+include - APP/Template\Element\menuleft.ctp, line 3
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::_renderElement() - CORE\src\View\View.php, line 1598
+Cake\View\View::element() - CORE\src\View\View.php, line 706
+include - APP/Template\Layout\layout.ctp, line 82
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1240
+Cake\View\View::_render() - CORE\src\View\View.php, line 1201
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 850
+Cake\View\View::render() - CORE\src\View\View.php, line 808
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 790
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 24
+
+
+

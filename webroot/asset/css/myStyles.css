@@ -1,0 +1,61 @@
+﻿
+.btn-same-width {
+    width: 100px !important;
+    height: 35px !important;
+    text-align: center;
+}
+.panel-header {
+    margin: 10px 1px 0px 0px !important;
+    float: right !important;
+    height: auto !important;
+}
+
+.col-delete {
+    width: 80px !important;
+}
+
+.col-icon{
+	width: 30px !important;
+	text-align: center;
+}
+
+.tbl-top {
+    margin: 40px 0px 0px 5px;
+}
+
+.table-bg-header {
+    background-color: lightskyblue !important
+}
+
+.modal-font-title {
+    font-size: 18px;
+}
+
+.tbl-detail {
+    border: none !important;
+}
+
+.tbl-col-lable {
+    width:auto
+}
+
+.tbl-col-control {
+    float: left
+}
+
+.modal-width-cus {
+    width: 900px !important
+}
+
+.text-cus {
+    height: 30px;
+    font-size: 13px;
+}
+
+.tbl-dislay{
+	width :800px !important;
+}
+
+.panel-action {
+	float: left !important
+}
