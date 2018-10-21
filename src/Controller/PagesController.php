@@ -38,4 +38,10 @@ class PagesController extends AppController
             throw new NotFoundException();
         }
     }
+    
+    function initialize()
+    {
+        parent:: initialize();
+        $this->layout = 'layout';
+    }
 }
