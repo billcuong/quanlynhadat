@@ -1,9 +1,4 @@
 ﻿
-.btn-same-width {
-    width: 100px !important;
-    height: 35px !important;
-    text-align: center;
-}
 .panel-header {
     margin: 10px 1px 0px 0px !important;
     float: right !important;
@@ -14,13 +9,8 @@
     width: 80px !important;
 }
 
-.col-icon{
-	width: 30px !important;
-	text-align: center;
-}
-
 .tbl-top {
-    margin: 40px 0px 0px 5px;
+    margin: 50px 0px 0px 5px;
 }
 
 .table-bg-header {
@@ -36,7 +26,7 @@
 }
 
 .tbl-col-lable {
-    width:auto
+    width: auto
 }
 
 .tbl-col-control {
@@ -52,10 +42,324 @@
     font-size: 13px;
 }
 
-.tbl-dislay{
-	width :800px !important;
+.div-row-link {
+    height: 34px !important;
+    padding-left: 10px !important
 }
 
-.panel-action {
-	float: left !important
+.div-row-action {
+    height: 35px !important;
+}
+
+
+/*
+   START Cursor
+*/
+.cursor-pointer {
+    cursor: pointer
+}
+/*
+    END Cursor
+*/
+
+/*
+  START  Style for action Group
+*/
+.btn-same-width {
+    width: 110px !important;
+    height: 35px !important;
+    text-align: center;
+}
+
+.btn:hover {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*
+    END Style for action Group
+*/
+
+/*
+    START Style Detail
+*/
+.content-cus {
+    padding: 5px !important
+}
+
+.title-detail {
+    color: dodgerblue;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    padding: 5px 0px 5px 10px;
+}
+
+.pager-option {
+}
+
+.pager-action {
+}
+
+/*
+    END Style Detail
+*/
+
+.title-group {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    margin: 10px 0;
+}
+
+    .title-group h1 {
+        border-bottom: 2px solid #71ac17;
+        color: rgba(0,0,0,.8);
+        display: inline-block;
+        margin: 0 0 -2px;
+        padding: 0 0 10px;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .title-group h2 {
+        border-bottom: 2px solid #71ac17;
+        color: rgba(0, 0, 0, .8);
+        display: inline-block;
+        margin: 0 0-2px;
+        padding: 0 0 10px;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .title-group h3 {
+        border-bottom: 2px solid #71ac17;
+        color: rgba(0,0,0,.8);
+        display: inline-block;
+        margin: 0 0 -2px;
+        padding: 0 0 10px;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .title-group h4 {
+        border-bottom: 2px solid #71ac17;
+        color: rgba(0, 0, 0, .8);
+        display: inline-block;
+        margin: 0 0-2px;
+        padding: 0 0 10px;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+.section-title {
+    margin: 10px 0 10px 0;
+    padding: 15px 0 15px 0;
+    color: #85b836;
+    display: block;
+    font-size: 17px;
+    font-weight: 300;
+    /*background: url(images/divider.png) repeat-x 0 center;*/
+}
+
+#wizard > ol {
+    list-style: none;
+}
+
+    #wizard > ol > li {
+        counter-increment: item;
+        margin-bottom: 5px;
+    }
+
+        #wizard > ol > li:before {
+            content: counter(item) ".";
+            color: #9fcc58;
+            font-size: 15px;
+            text-align: center;
+            display: inline-block;
+            position: relative;
+            left: -20px;
+            top: 45px;
+        }
+
+.estimate-tp-house.section-tp-house {
+    display: block;
+}
+
+.estimate-tp-apartment.section-tp-apartment {
+    display: block;
+}
+
+.estimate-tp-residential-land.section-construction {
+    display: none;
+}
+
+.estimate-submit {
+    margin-top: 20px;
+}
+
+.col-online-evaluation {
+    display: block;
+    text-align: left;
+}
+
+    .col-online-evaluation h1.title {
+        margin: 50px 0 10px 0;
+        padding: 0;
+        display: block;
+        font-size: 20px;
+        color: #71ac17;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+
+    .col-online-evaluation .note {
+    }
+
+    .col-online-evaluation .help {
+        display: inline-block;
+        background: #71ac17;
+        color: #fff;
+        width: 18px;
+        height: 18px;
+        border-radius: 3px;
+        text-align: center;
+        line-height: 18px;
+        margin-left: 5px;
+        cursor: help;
+        position: relative;
+        cursor: help;
+    }
+
+        .col-online-evaluation.help:after {
+            content: '';
+            border-left: 5px solid #71ac17;
+            border-top: 5px solid transparent;
+            position: absolute;
+            top: 5px;
+            left: 100%;
+        }
+
+.btn-online-evaluation {
+    line-height: 32px;
+    background: #f1592d;
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: .3s;
+    border-radius: 3px;
+    box-shadow: inset 0-2px rgba(0, 0, 0, .2);
+    text-decoration: none;
+}
+
+    .btn-online-evaluation: hover {
+        opacity: .7;
+        color: #fff;
+        text-decoration: none;
+    }
+
+.col-warning ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+    .col-warning ul li {
+        position: relative;
+        padding-left: 15px;
+        padding-bottom: 5px;
+    }
+
+        .col-warning ul li: before {
+            font-family: 'FontAwesome';
+            content: "\f105";
+            float: left;
+            font-size: 15px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .col-warning ul li label {
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            margin: 0;
+        }
+
+            .col-warning ul li label span {
+                font-size: 13px;
+                color: red;
+                display: inline-block;
+                padding-left: 5px;
+            }
+
+        .col-warning ul li p {
+            display: block;
+            margin: 0;
+        }
+
+
+.popover-title {
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+.popover-content {
+    font-size: 12px;
+}
+
+    .popover-content img {
+        max-width: 100%;
+        width: auto;
+    }
+
+#chatluongnha.popover {
+    min-width: 400px;
+}
+.content-product-detail.col-info-product h1.name {
+    margin-top: 10px;
+}
+
+.clabc {
+    font-size: 12px !important;
+    color: grey;
+}
+
+/* Map */
+.content-product-detail.col-right-Agency {
+    display: none;
+}
+
+.content-product-detail.col-fillter-map ul.utilities-fillter li {
+    height: 50px;
+}
+
+.content-product-detail.col-info-product.wrap-price.item.equal-price {
+    display: inline-block;
+    text-align: right;
+    margin-top: 10px;
+}
+
+body {
+    font-style: normal !important;
+    font-size: 13px;
+    font-family: "Roboto", "segoe ui", Helvetica, Arial, sans-serif;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+}
+
+.field-validation-valid {
+    display: none;
 }

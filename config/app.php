@@ -12,7 +12,6 @@ return [
         'dir' => 'src',
         'webroot' => 'webroot',
         'wwwRoot' => WWW_ROOT,
-        //'baseUrl' => env('SCRIPT_NAME'),
         'fullBaseUrl' => false,
         'imageBaseUrl' => 'img/',
         'cssBaseUrl' => 'css/',
@@ -84,9 +83,6 @@ return [
     'EmailTransport' => [
         'default' => [
             'className' => 'Cake\Mailer\Transport\MailTransport',
-            /*
-             * The following keys are used in SMTP transports:
-             */
             'host' => 'localhost',
             'port' => 25,
             'timeout' => 30,
@@ -102,8 +98,6 @@ return [
         'default' => [
             'transport' => 'default',
             'from' => 'you@localhost',
-            //'charset' => 'utf-8',
-            //'headerCharset' => 'utf-8',
         ],
     ],
     
