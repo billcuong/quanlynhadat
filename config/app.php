@@ -11,7 +11,7 @@ return [
         'base' => false,
         'dir' => 'src',
         'webroot' => 'webroot',
-        'wwwRoot' => WWW_ROOT,
+        'wwwRoot' => 'webroot',
         'fullBaseUrl' => false,
         'imageBaseUrl' => 'img/',
         'cssBaseUrl' => 'css/',

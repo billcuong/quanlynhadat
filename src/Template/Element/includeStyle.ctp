@@ -5,4 +5,4 @@
 <?= $this->Html->css('/lib/font-awesome/css/font-awesome.css') ?>
 <?= $this->Html->css('/asset/css/myStyles.css') ?>
 <?= $this->Html->css('/asset/css/skin-blue.css') ?>
-<?= $this->Html->css('/asset/css/styleMaster.css') ?>
+<?= $this->Html->css('/styleMaster.css', ['fullBase' => true]) ?>
